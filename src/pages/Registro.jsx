@@ -1,11 +1,20 @@
+/*Creacion del componente registro*/
+
 export default function Registro() {
 
+  /* Declaramos una variable global para darle estilo a un texto en especifico*/
   const Styles = {
     color: "#42a5f5",
     fontSize: "1rem"
   };
 
   return (
+
+     /*Procedemos con la codificacion tipo HTML para la creacion de nuestro componente.
+     
+     Hacemos uso de los estilos desarrollados en el archivo index.css
+
+     */
 
     <html>
            <header id="main-header">

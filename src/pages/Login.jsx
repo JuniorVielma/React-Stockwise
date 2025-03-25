@@ -1,5 +1,14 @@
+/* Componente Login - Pagina de ingreso a la aplicacíon*/
+/*En este caso no tenemos conexion a la base de datos aun, sin embargo se muestras vistras preliminares
+de nuestro software*/
+
 export default function Login() {
 
+   /*Procedemos con la codificacion tipo HTML para la creacion de nuestro componente.
+     
+     Hacemos uso de los estilos desarrollados en el archivo index.css
+
+     */
     return (
         <html>
             <header id="main-header">

@@ -1,3 +1,4 @@
+/*Debemos importar las imagenes SVG que necesitamos utilizar en nuestro componente "panel"*/
 import menu from '../assets/menu.svg';
 import doc from '../assets/documents.svg';
 import est from '../assets/stadistics.svg';
@@ -5,7 +6,18 @@ import stock from '../assets/inventory.svg';
 import notif from '../assets/notification.svg';
 import arrow from '../assets/arrow.svg'
 
+/*Una vez terminamos de importar, procedemos a realizar nuestra funcion o componente que retornará 
+la vista de panel*/
+
 function panel() {
+    
+   /*Procedemos con la codificacion tipo HTML para la creacion de nuestro componente.
+     
+     Hacemos uso de los estilos desarrollados en el archivo index.css
+
+     */
+
+
   return (
    <html>
         <header id="main-header">

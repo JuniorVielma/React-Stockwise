@@ -8,6 +8,8 @@ import Panel from './pages/panel';
 
 
 function App() {
+  /*Debemos declarar las rutas a utilizar en nuestro aplicativo, por lo que hacemos uso del componente 
+  Route y Routes de react-router-dom y cargamos o importamos los componentes*/
   return (
     <Routes>
         <Route path="/" element={<Login/>}/>
